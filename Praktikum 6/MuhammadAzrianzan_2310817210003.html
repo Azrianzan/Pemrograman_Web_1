@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Azrian's Photos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .borderUpRight {
+            border-width: 10px 10px 0 0;
+            right: 0;
+            top: 0;
+        }
+        .borderDownRight {
+            border-width: 10px 0 0 10px;
+            left: 0;
+            top: 0;
+        }
+        .borderDownLeft {
+            border-width: 0 0 10px 10px;
+            left: 0;
+            bottom: 0;
+        }
+        .borderUpLeft {
+            border-width: 0 10px 10px 0;
+            right: 0;
+            bottom: 0;
+        }
+        .navLogo {
+            font-weight: 900;
+            font-family: Didot; 
+            font-weight: bolder;
+        }
+        h2 {
+            font-weight: 900;
+        }
+        h3 {
+            font-family: Didot;
+            font-weight:bolder;
+            text-align: center;
+        }    
+        .desc{
+            font-weight: 400;
+            color: #666666;
+            font-family: Helvetica;
+            font-size: small;
+            letter-spacing:2px;
+            text-align: center;
+        }        
+        .borders div {
+            z-index: 9999;
+            pointer-events: none;
+            background-color: transparent;
+            border-color: #252525;
+            border-style: solid;
+            height: 90px;
+            position: fixed;
+            width: 90px;
+        }
+        .footer {
+            height: 300px;
+        }
+        .footLogo {
+            font-family: Didot;
+            font-weight: bolder;
+        }
+        p{
+            font-weight: 400;
+            color: #666666;
+        }
+        .socmed {
+            color: #666666;
+        }
+        .playfair-display {
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="borders">
+        <div class="borderUpRight"></div>
+        <div class="borderDownRight"></div>
+        <div class="borderDownLeft"></div>
+        <div class="borderUpLeft"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-custom" style="background-color: #f8f9fb;">
+        <div class="container-fluid">
+            <a class="navbar-brand m-2" href="#">
+                <h2 class="navLogo">RPhotography</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end playfair-display" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item pe-4">
+                        <a class="btn btn-outline-dark" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" aria-current="page" href="#">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" aria-current="page" href="#">PORTOFOLIO</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                        <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    
+    <div>
+        <h3>
+            <b>Hi. Hello.. I am Azrianzan...! <br> I have an Interest in Photography and Literature .!</b>
+        </h3>
+        <p class="desc">
+            NATURE PHOTOGRAPHY ENJOYER / STREET PHOTOGRAPHY ENTHUSIAST / BIBLIOMANIA
+        </p>
+    </div>
+
+    <br>
+    <br>
+
+    <nav class="nav justify-content-center playfair-display" style="padding: 10px;">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="btn btn-outline-dark" aria-current="page" href="#" style="border-radius: 20px; padding: 4px 20px;">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: grey;  padding: 4px 20px;">Landscape</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: grey;  padding: 4px 20px;">Portrait</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: grey;  padding: 4px 20px;">Product</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row d-flex align-items-center justify-content-center mb-2">
+        <div class="col d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-3 px-1"><img src="images/baris1/big-city.jpg" alt="Kota Besar"></div>
+                <div class="col-3 px-1"><img src="images/baris1/bridge-day.jpg" alt="Jembatan Besar di Siang Hari"></div>
+                <div class="col-3 px-1"><img src="images/baris1/cloudy-city.jpg" alt="Kota Berawan"></div>
+                <div class="col-3 px-1"><img src="images/baris1/kota-senja.jpg" alt="Sore Hari di Kota Besar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center justify-content-center mb-2">
+        <div class="col d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-3 px-1"><img src="images/baris2/foggy-forest.jpg" alt="Hutan Berkabut"></div>
+                <div class="col-3 px-1"><img src="images/baris2/green-forest.jpg" alt="Hutan Asri"></div>
+                <div class="col-3 px-1"><img src="images/baris2/old-forest.jpg" alt="Hutan Tua"></div>
+                <div class="col-3 px-1"><img src="images/baris2/old-trees.jpg" alt="Pohon Tua"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center justify-content-center mb-2">
+        <div class="col d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-3 px-1"><img src="images/baris3/cloudy-countryside.jpg" alt="Pedesaan Berawan"></div>
+                <div class="col-3 px-1"><img src="images/baris3/house-and-hill.jpg" alt="Rumah dan Bukit"></div>
+                <div class="col-3 px-1"><img src="images/baris3/house-white-black.jpg" alt="Gambar Rumah Hitam dan Putih"></div>
+                <div class="col-3 px-1"><img src="images/baris3/old-hoouse.jpg" alt="Rumah Tua"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center justify-content-center mb-2">
+        <div class="col d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-3 px-1"><img src="images/baris4/beautiful-place-to-live.jpg" alt="Tempat Tinggal yang Indah"></div>
+                <div class="col-3 px-1"><img src="images/baris4/big-mountain.jpg" alt="Pegunungan yang Besar"></div>
+                <div class="col-3 px-1"><img src="images/baris4/cloudy-mountains.jpg" alt="Pegunungan Berawan"></div>
+                <div class="col-3 px-1"><img src="images/baris4/mountain-lake.jpg" alt="Danau dan Gunung"></div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+
+    <div class="footer">
+        <div class="col d-flex flex-column align-items-center justify-content-center">
+            <h1 class="footLogo">RPhotography</h1>
+            <p>&copy; Copyrights 2024 All Rights Reserved</p>
+            <div class="socmed">
+                <i class="fa-brands fa-dribbble pe-5" style="font-size: 22px;"></i>
+                <i class="fa-brands fa-behance pe-5" style="font-size: 22px;"></i>
+                <i class="fa-brands fa-instagram pe-5" style="font-size: 22px;"></i>
+                <i class="fa-brands fa-500px pe-5" style="font-size: 22px;"></i>
+                <i class="fa-brands fa-flickr pe-5" style="font-size: 22px;"></i>
+                <i class="fa-brands fa-square-facebook pe-5" style="font-size: 22px;"></i>
+                <i class="fa-brands fa-x-twitter pe-5" style="font-size: 22px;"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
